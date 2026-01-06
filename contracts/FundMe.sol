@@ -68,7 +68,7 @@ contract FundMe {
     // If msg.data is empty, receive will be called
     receive() external payable {
         fund();
-    }c:\Users\patse\OneDrive\Desktop\Crypto\foundry-fund-me\.gitignore
+    }
 
     // If msg.data isn't empty but it doesn't match any other function in our contract, fallback will be called
     fallback() external payable {
